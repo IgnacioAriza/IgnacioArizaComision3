@@ -40,12 +40,12 @@ elif(voto == "candidato c" or voto=="c"):
 
 
 letra = input("Ingrese una letra: ")
-if (letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u"):
+if (len(letra) != 1):
+    print("No se puede procesar el dato.")
+elif (letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u"):
     print("Es una vocal.")
 elif (letra != "a" and letra != "e" and letra != "i" and letra != "o" and letra != "u"):
     print("No es una vocal")
-elif (len(letra) != 0):
-    print("No se puede procesar el dato")
 
 
 # Ejercicio 6 
