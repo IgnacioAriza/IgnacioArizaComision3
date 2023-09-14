@@ -16,6 +16,9 @@ for i in range(5):
   for j in message_lower:
     letter = letters.find(j)
     search = letter + encrip
+    if letter < 0:
+       message_encrip += j
+       continue
 
 
     if search > 26:
@@ -32,7 +35,7 @@ for i in range(5):
 #Ejercicio2
 
 
-number = input("Ingrese un numero real positivo")
+number = input("Ingrese un numero real positivo o ingrese 0 para salir: ")
 evens = 0
 odds = 0
 evenslocal = 0
@@ -51,7 +54,7 @@ while number != "0":
     print("Su numero tenia ", evenslocal , "numeros pares, y ", oddslocal, " numeros impares.")
     evenslocal = 0
     oddslocal = 0
-    number = input("ingrese un numero real positivo")
+    number = input("Ingrese un numero real positivo o ingrese 0 para salir: ")
 
 
 print("Hubieron ", evens, " numeros pares, y ", odds, " numeros impares.")
