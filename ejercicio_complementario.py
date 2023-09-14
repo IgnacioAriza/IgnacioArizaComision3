@@ -89,4 +89,4 @@ print(nombre_mayus.lower())
 
 #Ejercicio 16
 nombre_mayus = "NACHO"
-print(nombre_mayus.capitalize())
+print(nombre_mayus.title())
