@@ -81,7 +81,7 @@ Ejercicio 5:  Declara una variable de cada tipo de dato y asígnale un valor.
 * list: frutas=[“naranja”, “manzana”,”banana”]
 * tuple: coordenadas (0,3)
 * dict: persona={“edad”:45, “nombre”: “Marcelo”, “trabajo”: “Programador”}
-* null: caja=null
+* null: caja = None
 
 
 Ejercicio 6:
@@ -90,7 +90,7 @@ Ejercicio 6:
 1. frase[5] = “a”
 2. frase[-1] = “.”
 3. frase[0 : 8] = “Caminante”
-4. frase[:: 3] = 
+4. frase[:: 3] = "Cin,oaci,ea molnr"
 
 
 Ejercicio 7:
@@ -168,7 +168,7 @@ e) 16 * 2
 f) (8-3) * 6
 g) (2*6) - (4+3)
 h) n % 2 == 0 & n % 3 == 0
-i) precio >= 15 && precio < 90
+i) precio >= 15 and precio < 90
 j) n = n + 12
 k) n = n - 5
 l) n = n * 3
@@ -185,10 +185,10 @@ Ejercicio 13:
 3. false
 4. false
 5. false
-6. false
+6. true
 7. true
 8. true
-9. false
+9. true
 
 
 Ejercicio 14:
@@ -208,7 +208,7 @@ Ejercicio 15:
 3. lista = [“tres”, “dos”, “cinco”, “cuatro”, “uno”]
 4. Verde
 5. print(numeros[0] + numeros[2] + numeros[3] - numeros[1])
-6. 3
+6. 4
 7. print(diccionario[“c”]
 
 
@@ -244,20 +244,6 @@ print(100 - num1)
 Ejercicio 17
 
 
-a) if ((n % 2) == 0):
-   print(n, "Es par")
-else:
-   print(n, "Es impar")
-
-
-
-
-b) print(int(n))
-c) num1 = 3
-num2 = 5
-
-
-if num1 >= num2:
-  print(num1)
-else: 
-  print(num2)
+a) "Es par" if num%2==0 else "Es impar"
+b) num if num>0 else -num
+c) num1 if num1>num2 else num2
